@@ -240,12 +240,17 @@ footer {
         text-align: center;
     }
 
+    .header-right {
+        width: 457px;
+    }
+
     .header-right p {
         width: 457px;;
         margin-left: 90px;
     }
 
     .cards {
+        flex-wrap: wrap;
         gap: 11px;
     }
 
