@@ -307,6 +307,10 @@ footer {
         width: 128px;
     }
 
+    .header-right {
+        width: 287px;
+    }
+
     .header-right p {
         width: 287px;
         font-size: 14px;
