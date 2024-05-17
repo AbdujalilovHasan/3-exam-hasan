@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Lexend:wght@100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-1 {
+    background-color: #014E56;
+    padding-bottom: 120px;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 73px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #fff;
+}
+
+.nav-right {
+    gap: 40px;
+    display: flex;
+}
+
+.nav-btn button {
+    width: 153px;
+    height: 48px;
+    border-radius: 30px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    color: #fff;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.bar-icon {
+    display: none;
+}
+
+.header-row {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left h1 {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
+}
+
+.header-right {
+    width: 730px;
+}
+
+.header-right p {
+    margin-top: 60px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #fff;
+    width: 730px;
+}
+
+.bg-2 {
+    background-color: #004047;
+    padding-bottom: 148.25px;
+}
+
+main h1 {
+    padding-top: 71px;
+    color: #fff;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    ;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 69.5px;
+}
+
+.card {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    height: 274.73px;
+    background: #012F34;
+}
+
+.card-img {
+    margin-left: 127px;
+    margin-top: 44px;
+}
+
+.card h3 {
+    margin-top: 20.29px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.card p {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.plus-icon {
+    position: absolute;
+    top: 237px;
+    left: 147px;
+}
+
+.bg-3 {
+    background-color: #012F34;
+    padding-bottom: 113.94px;
+}
+
+.section-clients h1 {
+    padding-top: 113.94px;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.section-logos {
+    margin-top: 56.97px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 79px;
+}
+
+.bg-4 {
+    background-color: #F67E7E;
+    padding: 76px 0px 76px 0px;
+}
+
+.section-started {
+    justify-content: center;
+    display: flex;
+    gap: 240px;
+    align-items: center;
+}
+
+.section-left h1 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #012F34;
+}
+
+.section-btn button {
+    width: 153px;
+    height: 48px;
+    border: 2px solid #012F34;
+    border-radius: 30px;
+    background: none;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+footer {
+    background: #002529;
+    padding: 48px 0px 48px 0px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-icon i {
+    font-size: 24px;
+    color: #fff;
+}
+
+@media (max-width: 769px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-right p {
+        width: 457px;;
+        margin-left: 90px;
+    }
+
+    .cards {
+        gap: 11px;
+    }
+
+    .card {
+        width: 281px;
+    }
+
+    .card-img {
+        margin-left: 92.5px;
+    }
+
+    .plus-icon {
+        margin-left: -33px;
+    }
+
+    .three {
+        margin-top: 48px;
+    }
+
+    .section-logos {
+        gap: 36px;
+    }
+
+    .section-logo img {
+        width: 94px;
+    }
+
+    .section-left h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .bar-icon {
+        display: block;
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .logo img {
+        width: 128px;
+    }
+
+    .header-right p {
+        width: 287px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .card { 
+        width: 327px;
+    }
+
+    .plus-icon {
+        margin-left: -10px;
+    }
+
+    .card-img {
+        margin-left: 115.5px;
+    }
+
+    .three {
+        margin-top: 0px;
+    }
+
+    .section-logos {
+        flex-direction: column;
+    }
+
+    .section-started {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
