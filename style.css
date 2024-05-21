@@ -45,6 +45,7 @@ nav ul li a {
 }
 
 .nav-btn button {
+    cursor: pointer;
     width: 153px;
     height: 48px;
     border-radius: 30px;
@@ -55,6 +56,11 @@ nav ul li a {
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
+}
+
+.nav-btn button:hover {
+    border: none;
+    background: #012F34;
 }
 
 .bar-icon {
@@ -167,6 +173,7 @@ main h1 {
 }
 
 .section-logos {
+    justify-content: center;
     margin-top: 56.97px;
     display: flex;
     flex-wrap: wrap;
@@ -225,8 +232,13 @@ footer {
 }
 
 .footer-icon i {
+    cursor: pointer;
     font-size: 24px;
     color: #fff;
+}
+
+button {
+    cursor: pointer;
 }
 
 @media (max-width: 769px) {
